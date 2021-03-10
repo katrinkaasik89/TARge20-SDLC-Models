@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        span {
+            font-weight: 700;
+        
+        }
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>UML diagrams – which diagram to use and why</h2>
+    <p><a href="https://drawio-app.com/uml-diagrams/">By Kymberly Fergusson</a></p>
+
+    <p>The Unified Modeling Language (UML) is a diagramming notation (language) that lets you visualize systems and software. It’s one of the most popular forms of diagramming in software development and became an ISO standard in 1997.  Since then, there have been a few updates to add extra UML diagram types and to support new technologies in programming.</p>
+    
+    <p>There are two main categories and 14 different types of UML diagrams, each of which is used in a different situation.</p>
+    <ul>
+
+        <li><span>
+            Structure diagrams:</span> show the static relationships between the components in the system.
+        </li>
+        <li>
+        <span>Behavior diagrams:</span> show how the components in the system react to each other, they capture how the system changes, and in some diagrams, how it changes over time.
+        </li>
+    </ul>
+    <img style="width: 700px;" src="../img/UMLdiagrams.png" alt="UML Diagrams">
+
+
+
+
+    <button class="accordion">Use case diagrams</button>
+    <div class="panel">
+        <p>Use case diagrams in UML are used during the requirements phase of software development – they usually put the system requirements into a diagram format, and it’s easy to see what actions a system must support at a glance. Of course, there will be many use cases for your system, and therefore you will usually need to draw many use case diagrams!</p>
+        <p>Along with other UML diagrams, such as activity, sequence and component diagrams, use case diagrams help you to visualize your software and requirements, before jumping in and starting to program.</p>
+        <img src="../img/UseCase-HabitTrackingApp.png" alt="Use Case Diagram">
+    </div>
+
+    <button class="accordion">Class diagrams</button>
+    <div class="panel">
+        <p>Object oriented programming languages are based on classes and the relationships between them. UML class diagram notation was developed to represent these programs visually.</p>
+        <p>Classes contain their attributes (their data) and behaviors (member functions), and are related to each other with a variety of connectors.</p>
+        <img src="../img/Class-Diagram-Habit-Tracker-app.png" alt="Class diagram">
+    </div>
+
+    <button class="accordion">Sequence diagrams</button>
+    <div class="panel">
+        <p>Sequence diagrams are used to visualize both interactions within programs, business processes and IT infrastructures. They describe the sequence of interactions (messages) between actors and objects (things like databases or external interfaces).</p>
+        <img src="../img/drawioUMLsequenceDiagram-checkin.png" alt="Sequence diagrams">
+    </div>
+
+    <button class="accordion">Activity diagrams</button>
+    <div class="panel">
+        <p>Activity diagrams model the behavior of users and systems as they follow a process. They are a type of flow chart or workflow, but they use slightly different shapes.</p>
+        <img src="../img/ActivityDiagram-HabitTrackerApp.png" alt="Activity diagram">
+    </div>
+
+    <button class="accordion">State diagrams</button>
+    <div class="panel">
+        <p>State diagrams have been used in programming to describe the various states that a system can be in for decades. They aren’t limited to programming – every system and process has states. These diagrams are faster to create than activity or sequence diagrams, but show less information.</p>
+
+        <p>State diagrams show which states lead to each other, and what triggers a change of state.</p>
+        <img src="../img/UML-state-diagram-Habit-Tracker-example.png" alt="State diagram">
+    </div>
+
+    <button class="accordion">Interaction overview diagrams</button>
+    <div class="panel">
+        <p>These UML diagrams are a combination of an activity diagram and sequence diagrams, where each individual activity is placed in its own frame, so it is easier to program..</p>
+        <img src="../img/Interaction-Overview-Habit-Tracker.png" alt="Interaction overview diagrams">
+    </div>
+
+    <button class="accordion">Communication diagrams</button>
+    <div class="panel">
+        <p>These used to be called collaboration diagrams. They are similar to use case diagrams, detailing the information that is transferred. However, sequence diagrams are more often used to visualize the communication between objects as they are clearer and have a richer notation</p\    >
+            <img src="../img/UML-communication-habitCheckin.png" alt="Communication diagrams">
+    </div>
+
+    <button class="accordion">BitCoin Calculator App Activity Diagram</button>
+    <div class="panel">
+        <p><a href="https://github.com/katrinkaasik89/TARge20-BitcoinCalculatorApp" target = "blank">My BitCoin Calc></a></p>
+        <img src="" alt="">
+    </div>
+
+
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
