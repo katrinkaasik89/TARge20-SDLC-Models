@@ -1,0 +1,12 @@
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\bin\Debug\Fridge.mdf
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\bin\Debug\Fridge_log.ldf
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\bin\Debug\FridgeDB.exe.config
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\bin\Debug\FridgeDB.exe
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\bin\Debug\FridgeDB.pdb
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.csprojAssemblyReference.cache
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.Properties.Resources.resources
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.csproj.GenerateResource.cache
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.csproj.CoreCompileInputs.cache
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.exe
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.pdb
+C:\Users\Kati\source\repos\FridgeDB\FridgeDB\obj\Debug\FridgeDB.Form1.resources
